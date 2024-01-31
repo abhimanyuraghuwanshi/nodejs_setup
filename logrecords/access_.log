@@ -1298,3 +1298,23 @@ Response Body:
 	"data": null
 }
 Response: 200 301.790 ms 
+
+Request: POST /version1/user/apploginwithemail at Thu Feb 01 2024 01:00:32 GMT+0530, IP: ::1, User Agent: PostmanRuntime/7.35.0
+Request Body:
+{
+	"email": "dassy.doe@example.in",
+	"password": "123456"
+}
+Response Body:
+{
+	"success": true,
+	"status": 202,
+	"msg": "Login Successful",
+	"epoch": 1706729432,
+	"data": {
+		"id": 1,
+		"email": "dassy.doe@example.in",
+		"authToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImRhc3N5LmRvZUBleGFtcGxlLmluIiwiaWQiOjEsImp3dElkIjoiMzJhNWJlZDAtYzA2Zi0xMWVlLTk2N2ItNDE0ZGFhZDBlOWZmIiwiaWF0IjoxNzA2NzI5NDMxLCJleHAiOjE3MzgyNjU0MzF9.O8AqdGem8zn7t6jroLKN6kDsFtWPXYBjcg4PHrz-Hnk"
+	}
+}
+Response: 200 1280.814 ms 

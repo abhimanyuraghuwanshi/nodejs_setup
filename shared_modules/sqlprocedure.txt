@@ -1,0 +1,15 @@
+/*
+sql procedure , function, script are present here
+*/
+
+CREATE DATABASE abhimanyu;
+
+CREATE TABLE registration ( id INT PRIMARY KEY AUTO_INCREMENT, first_name VARCHAR(255), last_name VARCHAR(255), bio TEXT, email VARCHAR(255) UNIQUE NOT NULL, password VARCHAR(255) NOT NULL,profile_pic VARCHAR(255),jwt_id VARCHAR(255), created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP);
+ALTER TABLE registration ADD COLUMN is_active INT DEFAULT 1;
+ALTER TABLE registration ADD COLUMN bnb_address VARCHAR(255);
+
+CREATE TABLE activity (id INT PRIMARY KEY AUTO_INCREMENT,activity_type VARCHAR(255),user_id INT, ip VARCHAR(255), created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP);
+
+CREATE TABLE sContactUs (id INT PRIMARY KEY AUTO_INCREMENT,name VARCHAR(255),email VARCHAR(255),phone VARCHAR(20),text_message TEXT,subject VARCHAR(255), mobile_type VARCHAR(50),mobile_detail VARCHAR(255),image VARCHAR(255),video VARCHAR(255),created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP);
+
+CREATE TABLE admin (id INT PRIMARY KEY AUTO_INCREMENT,username VARCHAR(255),password VARCHAR(255),user_role VARCHAR(50));

@@ -1,0 +1,1300 @@
+
+Request: GET /version1/user/userregistration at Wed Jan 31 2024 15:29:32 GMT+0530, IP: ::1, User Agent: PostmanRuntime/7.36.1
+Response Body:
+Forbidden
+Response: 403 5.554 ms 
+
+Request: POST /version1/user/userregistration at Wed Jan 31 2024 15:29:54 GMT+0530, IP: ::1, User Agent: PostmanRuntime/7.36.1
+Response Body:
+{
+	"success": false,
+	"status": 400,
+	"msg": "Requested object-type invalid",
+	"epoch": 1706695194,
+	"data": null
+}
+Response: 400 1.226 ms 
+
+Request: POST /version1/user/userregistration at Wed Jan 31 2024 15:31:29 GMT+0530, IP: ::1, User Agent: PostmanRuntime/7.36.1
+Request Body:
+{
+	"first_name": "denny",
+	"last_name": "daniel",
+	"email": "daniel@gmail.com",
+	"confirm_password": "123456",
+	"password": "123456"
+}
+Response Body:
+{
+	"success": false,
+	"status": 404,
+	"msg": "Oops, there was a hiccup.",
+	"epoch": 1706695289,
+	"data": null
+}
+Response: 500 329.816 ms 
+
+Request: POST /version1/user/userregistration at Wed Jan 31 2024 15:33:30 GMT+0530, IP: ::1, User Agent: PostmanRuntime/7.36.1
+Request Body:
+{
+	"first_name": "denny",
+	"last_name": "daniel",
+	"email": "daniel@gmail.com",
+	"confirm_password": "123456",
+	"password": "123456"
+}
+Response Body:
+{
+	"success": false,
+	"status": 404,
+	"msg": "Oops, there was a hiccup.",
+	"epoch": 1706695410,
+	"data": null
+}
+Response: 200 199.828 ms 
+
+Request: POST /version1/user/userregistration at Wed Jan 31 2024 15:33:35 GMT+0530, IP: ::1, User Agent: PostmanRuntime/7.36.1
+Request Body:
+{
+	"first_name": "denny",
+	"last_name": "daniel",
+	"email": "daniel@gmail.com",
+	"confirm_password": "123456"
+}
+Response Body:
+{
+	"success": false,
+	"status": 422,
+	"msg": "Invalid value",
+	"epoch": 1706695415,
+	"data": null
+}
+Response: 200 2.776 ms 
+
+Request: POST /version1/user/userregistration at Wed Jan 31 2024 15:33:42 GMT+0530, IP: ::1, User Agent: PostmanRuntime/7.36.1
+Request Body:
+{
+	"first_name": "denny",
+	"last_name": "daniel",
+	"email": "daniel@gmail.com",
+	"confirm_password": "123456",
+	"password": 1
+}
+Response Body:
+{
+	"success": false,
+	"status": 422,
+	"msg": "password required!",
+	"epoch": 1706695421,
+	"data": null
+}
+Response: 200 2.952 ms 
+
+Request: POST /version1/user/userregistration at Wed Jan 31 2024 15:36:10 GMT+0530, IP: ::1, User Agent: PostmanRuntime/7.36.1
+Request Body:
+{
+	"first_name": "denny",
+	"last_name": "daniel",
+	"email": "daniel@gmail.com",
+	"confirm_password": "123456",
+	"password": "123456"
+}
+Response Body:
+{
+	"success": false,
+	"status": 404,
+	"msg": "Oops, there was a hiccup.",
+	"epoch": 1706695570,
+	"data": null
+}
+Response: 200 183.432 ms 
+
+Request: POST /version1/user/userregistration at Wed Jan 31 2024 15:37:38 GMT+0530, IP: ::1, User Agent: PostmanRuntime/7.36.1
+Request Body:
+{
+	"first_name": "denny",
+	"last_name": "daniel",
+	"email": "daniel@gmail.com",
+	"confirm_password": "123456",
+	"password": "123456"
+}
+Response: - - ms 
+
+Request: POST /version1/user/userregistration at Wed Jan 31 2024 15:39:13 GMT+0530, IP: ::1, User Agent: PostmanRuntime/7.36.1
+Request Body:
+{
+	"first_name": "john",
+	"last_name": "doe",
+	"email": "john.doe@example.com",
+	"confirm_password": "123456",
+	"password": "123456"
+}
+Response: - - ms 
+
+Request: POST /version1/user/userregistration at Wed Jan 31 2024 15:39:13 GMT+0530, IP: ::1, User Agent: PostmanRuntime/7.36.1
+Request Body:
+{
+	"first_name": "john",
+	"last_name": "doe",
+	"email": "johnz.doe@example.com",
+	"confirm_password": "123456",
+	"password": "123456"
+}
+Response Body:
+{
+	"success": false,
+	"status": 404,
+	"msg": "Oops, there was a hiccup.",
+	"epoch": 1706695753,
+	"data": null
+}
+Response: 200 29.083 ms 
+
+Request: POST /version1/user/userregistration at Wed Jan 31 2024 15:39:31 GMT+0530, IP: ::1, User Agent: PostmanRuntime/7.36.1
+Request Body:
+{
+	"first_name": "john",
+	"last_name": "doe",
+	"email": "johnz.doe@example.com",
+	"confirm_password": "123456",
+	"password": "123456"
+}
+Response: - - ms 
+
+Request: POST /version1/user/userregistration at Wed Jan 31 2024 15:40:32 GMT+0530, IP: ::1, User Agent: PostmanRuntime/7.36.1
+Request Body:
+{
+	"first_name": "john",
+	"last_name": "doe",
+	"email": "john.doe@example.com",
+	"confirm_password": "123456",
+	"password": "123456"
+}
+Response Body:
+{
+	"success": false,
+	"status": 200,
+	"msg": "Email already registered.",
+	"epoch": 1706695832,
+	"data": null
+}
+Response: 200 183.401 ms 
+
+Request: POST /version1/user/userregistration at Wed Jan 31 2024 15:43:58 GMT+0530, IP: ::1, User Agent: PostmanRuntime/7.36.1
+Request Body:
+{
+	"first_name": "dassy",
+	"last_name": "doe",
+	"email": "dassy.doe@example.com",
+	"confirm_password": "123456",
+	"password": "123456"
+}
+Response: - - ms 
+
+Request: POST /version1/user/userregistration at Wed Jan 31 2024 15:43:59 GMT+0530, IP: ::1, User Agent: PostmanRuntime/7.36.1
+Request Body:
+{
+	"first_name": "dassy",
+	"last_name": "doe",
+	"email": "dassy.doe@example.com",
+	"confirm_password": "1234s56",
+	"password": "123456"
+}
+Response Body:
+{
+	"success": false,
+	"status": 409,
+	"msg": "password and confirm password should be same.",
+	"epoch": 1706696039,
+	"data": null
+}
+Response: 200 28.426 ms 
+
+Request: POST /version1/user/userregistration at Wed Jan 31 2024 15:50:40 GMT+0530, IP: ::1, User Agent: PostmanRuntime/7.36.1
+Request Body:
+{
+	"first_name": "dassy",
+	"last_name": "doe",
+	"email": "dassy.doe@example.com",
+	"confirm_password": "123456",
+	"password": "8d969eef6ecad3c29a3a629280e686cf0c3f5d5a86aff3ca12020c923adc6c92"
+}
+Response Body:
+{
+	"success": false,
+	"status": 404,
+	"msg": "Oops, there was a hiccup.",
+	"epoch": 1706696440,
+	"data": null
+}
+Response: 200 353.953 ms 
+
+Request: POST /version1/user/userregistration at Wed Jan 31 2024 15:50:53 GMT+0530, IP: ::1, User Agent: PostmanRuntime/7.36.1
+Request Body:
+{
+	"first_name": "dassy",
+	"last_name": "doe",
+	"email": "dassy.doe@example.com",
+	"confirm_password": "123456",
+	"password": "8d969eef6ecad3c29a3a629280e686cf0c3f5d5a86aff3ca12020c923adc6c92"
+}
+Response Body:
+{
+	"success": false,
+	"status": 404,
+	"msg": "Oops, there was a hiccup.",
+	"epoch": 1706696453,
+	"data": null
+}
+Response: 200 219.971 ms 
+
+Request: POST /version1/user/userregistration at Wed Jan 31 2024 15:53:49 GMT+0530, IP: ::1, User Agent: PostmanRuntime/7.36.1
+Request Body:
+{
+	"first_name": "dassy",
+	"last_name": "doe",
+	"email": "dassy.doe@example.com",
+	"confirm_password": "123456",
+	"password": "8d969eef6ecad3c29a3a629280e686cf0c3f5d5a86aff3ca12020c923adc6c92"
+}
+Response Body:
+{
+	"success": false,
+	"status": 400,
+	"msg": "Unable to register.Try again",
+	"epoch": 1706696629,
+	"data": null
+}
+Response: 200 303.853 ms 
+
+Request: POST /version1/user/userregistration at Wed Jan 31 2024 15:54:10 GMT+0530, IP: ::1, User Agent: PostmanRuntime/7.36.1
+Request Body:
+{
+	"first_name": "dassy",
+	"last_name": "doe",
+	"email": "dassy.doe@example.com",
+	"confirm_password": "123456",
+	"password": "123456"
+}
+Response Body:
+{
+	"success": false,
+	"status": 208,
+	"msg": "Email already registered.",
+	"epoch": 1706696650,
+	"data": null
+}
+Response: 200 38.280 ms 
+
+Request: POST /version1/user/userregistration at Wed Jan 31 2024 15:54:34 GMT+0530, IP: ::1, User Agent: PostmanRuntime/7.36.1
+Request Body:
+{
+	"first_name": "dassy",
+	"last_name": "doe",
+	"email": "dassy.doe@example.",
+	"confirm_password": "123456",
+	"password": "123456"
+}
+Response Body:
+{
+	"success": false,
+	"status": 422,
+	"msg": "invalid email format!",
+	"epoch": 1706696674,
+	"data": null
+}
+Response: 200 2.019 ms 
+
+Request: POST /version1/user/userregistration at Wed Jan 31 2024 15:54:38 GMT+0530, IP: ::1, User Agent: PostmanRuntime/7.36.1
+Request Body:
+{
+	"first_name": "dassy",
+	"last_name": "doe",
+	"email": "dassy.doe@example.in",
+	"confirm_password": "123456",
+	"password": "8d969eef6ecad3c29a3a629280e686cf0c3f5d5a86aff3ca12020c923adc6c92"
+}
+Response Body:
+{
+	"success": false,
+	"status": 404,
+	"msg": "Oops, there was a hiccup.",
+	"epoch": 1706696678,
+	"data": null
+}
+Response: 200 70.775 ms 
+
+Request: POST /version1/user/userregistration at Wed Jan 31 2024 15:55:51 GMT+0530, IP: ::1, User Agent: PostmanRuntime/7.36.1
+Request Body:
+{
+	"first_name": "dassy",
+	"last_name": "doe",
+	"email": "dassy.doe@example.in",
+	"confirm_password": "123456",
+	"password": "8d969eef6ecad3c29a3a629280e686cf0c3f5d5a86aff3ca12020c923adc6c92"
+}
+Response Body:
+{
+	"success": true,
+	"status": 200,
+	"msg": "Registration successfull",
+	"epoch": 1706696751,
+	"data": null
+}
+Response: 200 75.833 ms 
+
+Request: POST /version1/user/apploginwithemail at Wed Jan 31 2024 16:29:45 GMT+0530, IP: ::1, User Agent: PostmanRuntime/7.36.1
+Request Body:
+{
+	"first_name": "dassy",
+	"last_name": "doe",
+	"email": "dassy.doe@example.com",
+	"confirm_password": "123456",
+	"password": "123456"
+}
+Response Body:
+{
+	"success": false,
+	"status": 406,
+	"msg": "Please registered before login",
+	"epoch": 1706698785,
+	"data": null
+}
+Response: 200 219.362 ms 
+
+Request: POST /version1/user/apploginwithemail at Wed Jan 31 2024 16:30:17 GMT+0530, IP: ::1, User Agent: PostmanRuntime/7.36.1
+Request Body:
+{
+	"email": "dassy.doe@example.com",
+	"password": "123456"
+}
+Response Body:
+{
+	"success": false,
+	"status": 406,
+	"msg": "Please registered before login",
+	"epoch": 1706698817,
+	"data": null
+}
+Response: 200 25.326 ms 
+
+Request: POST /version1/user/apploginwithemail at Wed Jan 31 2024 16:30:32 GMT+0530, IP: ::1, User Agent: PostmanRuntime/7.36.1
+Request Body:
+{
+	"email": "dassy.doe@example.in",
+	"password": "123456"
+}
+Response Body:
+{
+	"success": true,
+	"status": 202,
+	"msg": "Login Successful",
+	"epoch": 1706698832,
+	"data": {
+		"id": 1,
+		"email": "dassy.doe@example.in",
+		"authToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImRhc3N5LmRvZUBleGFtcGxlLmluIiwiaWQiOjEsImp3dElkIjoiZjNiY2ZhOTAtYzAyNy0xMWVlLThiMzEtOTFiZGRkMWQ1YjdhIiwiaWF0IjoxNzA2Njk4ODMyLCJleHAiOjE3MzgyMzQ4MzJ9.cr50kp_N9gLFQ2kJLEUuldUTXcq4Nq0mt6-D3jrFr0E"
+	}
+}
+Response: 200 91.470 ms 
+
+Request: POST /stepApi/user/changepassword at Wed Jan 31 2024 16:31:50 GMT+0530, IP: ::1, User Agent: PostmanRuntime/7.36.1
+Request Body:
+{
+	"password": "Espsoft123#",
+	"confirm_password": "Espsoft123#"
+}
+Response: 404 0.818 ms 
+
+Request: POST /version1/user/apploginwithemail at Wed Jan 31 2024 16:32:02 GMT+0530, IP: ::1, User Agent: PostmanRuntime/7.36.1
+Request Body:
+{
+	"email": "dassy.doe@example.in",
+	"password": "123456"
+}
+Response Body:
+{
+	"success": true,
+	"status": 202,
+	"msg": "Login Successful",
+	"epoch": 1706698922,
+	"data": {
+		"id": 1,
+		"email": "dassy.doe@example.in",
+		"authToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImRhc3N5LmRvZUBleGFtcGxlLmluIiwiaWQiOjEsImp3dElkIjoiMjlkYTIwZDAtYzAyOC0xMWVlLThiMzEtOTFiZGRkMWQ1YjdhIiwiaWF0IjoxNzA2Njk4OTIyLCJleHAiOjE3MzgyMzQ5MjJ9.70yw2ppCdCSPkc8-hyqKLS-7iXHWs9i5xMO7fEmcPxA"
+	}
+}
+Response: 200 96.950 ms 
+
+Request: POST /stepApi/user/changepassword at Wed Jan 31 2024 16:32:27 GMT+0530, IP: ::1, User Agent: PostmanRuntime/7.36.1
+Request Body:
+{
+	"password": "Espsoft123#",
+	"confirm_password": "Espsoft123#"
+}
+Response: 404 0.202 ms 
+
+Request: POST /version1/user/changepassword at Wed Jan 31 2024 16:35:50 GMT+0530, IP: ::1, User Agent: PostmanRuntime/7.36.1
+Request Body:
+{
+	"password": "Espsoft123#",
+	"confirm_password": "Espsoft123#"
+}
+Response Body:
+Forbidden
+Response: 403 4.500 ms 
+
+Request: POST /version1/user/apploginwithemail at Wed Jan 31 2024 16:36:11 GMT+0530, IP: ::1, User Agent: PostmanRuntime/7.36.1
+Request Body:
+{
+	"email": "dassy.doe@example.in",
+	"password": "123456"
+}
+Response Body:
+{
+	"success": true,
+	"status": 202,
+	"msg": "Login Successful",
+	"epoch": 1706699171,
+	"data": {
+		"id": 1,
+		"email": "dassy.doe@example.in",
+		"authToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImRhc3N5LmRvZUBleGFtcGxlLmluIiwiaWQiOjEsImp3dElkIjoiYmUwMTg2ZTAtYzAyOC0xMWVlLWI4MGUtOWI5YzA1Y2JjYWNjIiwiaWF0IjoxNzA2Njk5MTcxLCJleHAiOjE3MzgyMzUxNzF9.5xhfRkc57huzMv5A27siH2NkYColktmGK2Jxdxs45xQ"
+	}
+}
+Response: 200 344.636 ms 
+
+Request: POST /version1/user/changepassword at Wed Jan 31 2024 16:36:14 GMT+0530, IP: ::1, User Agent: PostmanRuntime/7.36.1
+Request Body:
+{
+	"password": "Espsoft123#",
+	"confirm_password": "Espsoft123#"
+}
+Response Body:
+Forbidden
+Response: 403 67.488 ms 
+
+Request: POST /version1/user/changepassword at Wed Jan 31 2024 16:36:24 GMT+0530, IP: ::1, User Agent: PostmanRuntime/7.36.1
+Request Body:
+{
+	"password": "Espsoft123#",
+	"confirm_password": "Espsoft123#"
+}
+Response Body:
+Forbidden
+Response: 403 24.639 ms 
+
+Request: POST /version1/user/apploginwithemail at Wed Jan 31 2024 16:36:48 GMT+0530, IP: ::1, User Agent: PostmanRuntime/7.36.1
+Request Body:
+{
+	"email": "dassy.doe@example.in",
+	"password": "123456"
+}
+Response Body:
+{
+	"success": true,
+	"status": 202,
+	"msg": "Login Successful",
+	"epoch": 1706699208,
+	"data": {
+		"id": 1,
+		"email": "dassy.doe@example.in",
+		"authToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImRhc3N5LmRvZUBleGFtcGxlLmluIiwiaWQiOjEsImp3dElkIjoiZDNkNGZkODAtYzAyOC0xMWVlLWI4MGUtOWI5YzA1Y2JjYWNjIiwiaWF0IjoxNzA2Njk5MjA4LCJleHAiOjE3MzgyMzUyMDh9.ecqhZTPHRzK1sfm3reLtN_lay9jxXlu6GMa8mVZ7YQo"
+	}
+}
+Response: 200 83.432 ms 
+
+Request: POST /version1/user/changepassword at Wed Jan 31 2024 16:37:00 GMT+0530, IP: ::1, User Agent: PostmanRuntime/7.36.1
+Request Body:
+{
+	"password": "Espsoft123#",
+	"confirm_password": "Espsoft123#"
+}
+Response Body:
+Forbidden
+Response: 403 24.854 ms 
+
+Request: POST /version1/user/changepassword at Wed Jan 31 2024 16:37:54 GMT+0530, IP: ::1, User Agent: PostmanRuntime/7.36.1
+Request Body:
+{
+	"password": "Espsoft123#",
+	"confirm_password": "Espsoft123#"
+}
+Response Body:
+Forbidden
+Response: 403 203.246 ms 
+
+Request: POST /version1/user/changepassword at Wed Jan 31 2024 16:38:18 GMT+0530, IP: ::1, User Agent: PostmanRuntime/7.36.1
+Request Body:
+{
+	"password": "Espsoft123#",
+	"confirm_password": "Espsoft123#"
+}
+Response Body:
+Forbidden
+Response: 403 171.275 ms 
+
+Request: POST /version1/user/changepassword at Wed Jan 31 2024 16:38:45 GMT+0530, IP: ::1, User Agent: PostmanRuntime/7.36.1
+Request Body:
+{
+	"password": "Espsoft123#",
+	"confirm_password": "Espsoft123#"
+}
+Response Body:
+{
+	"success": true,
+	"status": 200,
+	"msg": "success",
+	"epoch": 1706699325,
+	"data": null
+}
+Response: 200 234.571 ms 
+
+Request: POST /version1/user/changepassword at Wed Jan 31 2024 16:39:45 GMT+0530, IP: ::1, User Agent: PostmanRuntime/7.36.1
+Request Body:
+{
+	"password": "Espsoft123#",
+	"confirm_password": "Espsoft123#"
+}
+Response Body:
+{
+	"success": true,
+	"status": 200,
+	"msg": "success",
+	"epoch": 1706699385,
+	"data": null
+}
+Response: 200 201.265 ms 
+
+Request: POST /version1/user/changepassword at Wed Jan 31 2024 16:39:55 GMT+0530, IP: ::1, User Agent: PostmanRuntime/7.36.1
+Request Body:
+{
+	"password": "Espsoft123#",
+	"confirm_password": "Espsoft123#"
+}
+Response Body:
+{
+	"success": true,
+	"status": 200,
+	"msg": "success",
+	"epoch": 1706699395,
+	"data": null
+}
+Response: 200 52.968 ms 
+
+Request: POST /version1/user/contactus at Wed Jan 31 2024 16:40:48 GMT+0530, IP: ::1, User Agent: PostmanRuntime/7.36.1
+Request Body:
+{
+	"email": "sidhu1@gmail.com",
+	"name": "_sidhu",
+	"subject": "dgsdgdggg",
+	"text": "qwertyuioqwertyusdfg f g gb fdeggfh",
+	"phone": "15615616516",
+	"imageName": "none",
+	"videoName": "none",
+	"mobile_type": "none",
+	"mobile_detail": "none"
+}
+Response Body:
+{
+	"success": false,
+	"status": 404,
+	"msg": "Oops, there was a hiccup.",
+	"epoch": 1706699448,
+	"data": null
+}
+Response: 200 35.671 ms 
+
+Request: POST /version1/user/contactus at Wed Jan 31 2024 16:41:36 GMT+0530, IP: ::1, User Agent: PostmanRuntime/7.36.1
+Request Body:
+{
+	"email": "sidhu1@gmail.com",
+	"name": "_sidhu",
+	"subject": "dgsdgdggg",
+	"text": "qwertyuioqwertyusdfg f g gb fdeggfh",
+	"phone": "15615616516",
+	"imageName": "none",
+	"videoName": "none",
+	"mobile_type": "none",
+	"mobile_detail": "none"
+}
+Response Body:
+{
+	"success": false,
+	"status": 404,
+	"msg": "Oops, there was a hiccup.",
+	"epoch": 1706699496,
+	"data": null
+}
+Response: 200 383.570 ms 
+
+Request: POST /version1/user/contactus at Wed Jan 31 2024 16:42:13 GMT+0530, IP: ::1, User Agent: PostmanRuntime/7.36.1
+Request Body:
+{
+	"email": "sidhu1@gmail.com",
+	"name": "_sidhu",
+	"subject": "dgsdgdggg",
+	"text": "qwertyuioqwertyusdfg f g gb fdeggfh",
+	"phone": "15615616516",
+	"imageName": "17066995327931.png",
+	"videoName": "17066995327932.png",
+	"mobile_type": "none",
+	"mobile_detail": "none"
+}
+Response Body:
+{
+	"success": false,
+	"status": 404,
+	"msg": "Oops, there was a hiccup.",
+	"epoch": 1706699533,
+	"data": null
+}
+Response: 200 305.572 ms 
+
+Request: POST /version1/user/contactus at Wed Jan 31 2024 16:44:09 GMT+0530, IP: ::1, User Agent: PostmanRuntime/7.36.1
+Request Body:
+{
+	"email": "sidhu1@gmail.com",
+	"name": "_sidhu",
+	"subject": "dgsdgdggg",
+	"text": "qwertyuioqwertyusdfg f g gb fdeggfh",
+	"phone": "15615616516",
+	"imageName": "17066996497933.png",
+	"videoName": "17066996497934.png",
+	"mobile_type": "none",
+	"mobile_detail": "none"
+}
+Response Body:
+{
+	"success": true,
+	"status": 200,
+	"msg": "We've got your query. We'll reply shortly!",
+	"epoch": 1706699649,
+	"data": null
+}
+Response: 200 52.772 ms 
+
+Request: POST /version1/user/contactus at Wed Jan 31 2024 16:45:49 GMT+0530, IP: ::1, User Agent: PostmanRuntime/7.36.1
+Request Body:
+{
+	"email": "sidhu1@gmail.com",
+	"name": "_sidhu",
+	"subject": "dgsdgdggg",
+	"text": "qwertyuioqwertyusdfg f g gb fdeggfh",
+	"phone": "15615616516",
+	"mobile_type": "android",
+	"mobile_detail": "samsung galaxy A5",
+	"imageName": "17066997496525.png",
+	"videoName": "17066997496536.png"
+}
+Response Body:
+{
+	"success": true,
+	"status": 200,
+	"msg": "We've got your query. We'll reply shortly!",
+	"epoch": 1706699749,
+	"data": null
+}
+Response: 200 43.958 ms 
+
+Request: GET /version1/user/userprofile at Wed Jan 31 2024 17:07:22 GMT+0530, IP: ::1, User Agent: PostmanRuntime/7.36.1
+Response Body:
+Forbidden
+Response: 403 4.846 ms 
+
+Request: GET /version1/user/userprofile at Wed Jan 31 2024 17:07:32 GMT+0530, IP: ::1, User Agent: PostmanRuntime/7.36.1
+Response Body:
+{
+	"success": true,
+	"status": 200,
+	"msg": "Success",
+	"epoch": 1706701052,
+	"data": {
+		"id": 1,
+		"first_name": "dassy",
+		"last_name": "doe",
+		"bio": null,
+		"email": "dassy.doe@example.in",
+		"password": "6439a7c80eecb523947f94e5c4070b9b83b6d3686176192128622858058e053b",
+		"profile_pic": "defaultProfile.png",
+		"jwt_id": "d3d4fd80-c028-11ee-b80e-9b9c05cbcacc",
+		"created_at": "2024-01-31T04:55:51.000Z"
+	}
+}
+Response: 200 259.246 ms 
+
+Request: GET /version1/user/userprofile at Wed Jan 31 2024 17:10:09 GMT+0530, IP: ::1, User Agent: PostmanRuntime/7.36.1
+Response Body:
+{
+	"success": true,
+	"status": 200,
+	"msg": "Success",
+	"epoch": 1706701209,
+	"data": {
+		"id": 1,
+		"first_name": "dassy",
+		"last_name": "doe",
+		"bio": null,
+		"email": "dassy.doe@example.in",
+		"password": "6439a7c80eecb523947f94e5c4070b9b83b6d3686176192128622858058e053b",
+		"profile_pic": "defaultProfile.png",
+		"jwt_id": "d3d4fd80-c028-11ee-b80e-9b9c05cbcacc",
+		"created_at": "2024-01-31T04:55:51.000Z"
+	}
+}
+Response: 200 286.794 ms 
+
+Request: GET /version1/user/userprofile at Wed Jan 31 2024 17:10:24 GMT+0530, IP: ::1, User Agent: PostmanRuntime/7.36.1
+Response Body:
+{
+	"success": true,
+	"status": 200,
+	"msg": "Success",
+	"epoch": 1706701224,
+	"data": {
+		"id": 1,
+		"first_name": "dassy",
+		"last_name": "doe",
+		"bio": null,
+		"email": "dassy.doe@example.in",
+		"password": "6439a7c80eecb523947f94e5c4070b9b83b6d3686176192128622858058e053b",
+		"profile_pic": "defaultProfile.png",
+		"jwt_id": "d3d4fd80-c028-11ee-b80e-9b9c05cbcacc",
+		"created_at": "2024-01-31T04:55:51.000Z"
+	}
+}
+Response: 200 257.023 ms 
+
+Request: GET /version1/user/userprofile at Wed Jan 31 2024 17:10:46 GMT+0530, IP: ::1, User Agent: PostmanRuntime/7.36.1
+Response Body:
+{
+	"success": true,
+	"status": 200,
+	"msg": "Success",
+	"epoch": 1706701246,
+	"data": {
+		"id": 1,
+		"first_name": "dassy",
+		"last_name": "doe",
+		"bio": null,
+		"email": "dassy.doe@example.in",
+		"password": "6439a7c80eecb523947f94e5c4070b9b83b6d3686176192128622858058e053b",
+		"profile_pic": "https://www.espsofttechnologies.com/media/undefined",
+		"jwt_id": "d3d4fd80-c028-11ee-b80e-9b9c05cbcacc",
+		"created_at": "2024-01-31T04:55:51.000Z"
+	}
+}
+Response: 200 224.721 ms 
+
+Request: GET /version1/user/userprofile at Wed Jan 31 2024 17:11:01 GMT+0530, IP: ::1, User Agent: PostmanRuntime/7.36.1
+Response Body:
+{
+	"success": true,
+	"status": 200,
+	"msg": "Success",
+	"epoch": 1706701261,
+	"data": {
+		"id": 1,
+		"first_name": "dassy",
+		"last_name": "doe",
+		"bio": null,
+		"email": "dassy.doe@example.in",
+		"password": "6439a7c80eecb523947f94e5c4070b9b83b6d3686176192128622858058e053b",
+		"profile_pic": "https://www.espsofttechnologies.com/media/defaultProfile.png",
+		"jwt_id": "d3d4fd80-c028-11ee-b80e-9b9c05cbcacc",
+		"created_at": "2024-01-31T04:55:51.000Z"
+	}
+}
+Response: 200 286.330 ms 
+
+Request: GET /version1/user/stopapplicationflag at Wed Jan 31 2024 17:12:16 GMT+0530, IP: ::1, User Agent: PostmanRuntime/7.36.1
+Response Body:
+{
+	"success": false,
+	"status": 204,
+	"msg": "Application is stop by admin",
+	"epoch": 1706701336,
+	"data": null
+}
+Response: 200 4.843 ms 
+
+Request: POST /version1/user/changepassword at Wed Jan 31 2024 17:19:51 GMT+0530, IP: ::1, User Agent: PostmanRuntime/7.36.1
+Request Body:
+{
+	"password": "123456",
+	"confirm_password": "123456"
+}
+Response Body:
+{
+	"success": true,
+	"status": 200,
+	"msg": "success",
+	"epoch": 1706701791,
+	"data": null
+}
+Response: 200 293.891 ms 
+
+Request: POST /version1/authadmin/adminlogin at Wed Jan 31 2024 17:21:43 GMT+0530, IP: ::1, User Agent: PostmanRuntime/7.36.1
+Request Body:
+{
+	"username": "admin",
+	"password": "123456"
+}
+Response Body:
+Forbidden
+Response: 403 2.929 ms 
+
+Request: POST /version1/authadmin/adminlogin at Wed Jan 31 2024 17:22:18 GMT+0530, IP: ::1, User Agent: PostmanRuntime/7.36.1
+Request Body:
+{
+	"username": "admin",
+	"password": "123456"
+}
+Response Body:
+{
+	"success": false,
+	"status": 404,
+	"msg": "Oops, there was a hiccup.",
+	"epoch": 1706701938,
+	"data": null
+}
+Response: 200 374.120 ms 
+
+Request: POST /version1/authadmin/adminlogin at Wed Jan 31 2024 17:22:56 GMT+0530, IP: ::1, User Agent: PostmanRuntime/7.36.1
+Request Body:
+{
+	"username": "admin",
+	"password": "123456"
+}
+Response Body:
+{
+	"success": false,
+	"status": 404,
+	"msg": "Oops, there was a hiccup.",
+	"epoch": 1706701976,
+	"data": null
+}
+Response: 200 220.639 ms 
+
+Request: POST /version1/authadmin/adminlogin at Wed Jan 31 2024 17:23:37 GMT+0530, IP: ::1, User Agent: PostmanRuntime/7.36.1
+Request Body:
+{
+	"username": "admin",
+	"password": "123456"
+}
+Response Body:
+{
+	"success": false,
+	"status": 404,
+	"msg": "Oops, there was a hiccup.",
+	"epoch": 1706702017,
+	"data": null
+}
+Response: 200 222.127 ms 
+
+Request: POST /version1/authadmin/adminlogin at Wed Jan 31 2024 17:25:18 GMT+0530, IP: ::1, User Agent: PostmanRuntime/7.36.1
+Request Body:
+{
+	"username": "admin",
+	"password": "123456"
+}
+Response Body:
+{
+	"success": false,
+	"status": 404,
+	"msg": "Oops, there was a hiccup.",
+	"epoch": 1706702118,
+	"data": null
+}
+Response: 200 275.021 ms 
+
+Request: POST /version1/authadmin/adminlogin at Wed Jan 31 2024 17:26:04 GMT+0530, IP: ::1, User Agent: PostmanRuntime/7.36.1
+Request Body:
+{
+	"username": "admin",
+	"password": "123456"
+}
+Response Body:
+{
+	"success": false,
+	"status": 200,
+	"msg": "Login Successfully",
+	"epoch": 1706702164,
+	"data": {
+		"id": 1,
+		"username": "admin",
+		"authToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFkbWluIiwiaWQiOjEsInJvbGUiOiJjcGFkbWluIiwiaWF0IjoxNzA2NzAyMTY0LCJleHAiOjE3MDY3ODg1NjR9.N2zYB0-zX7x2sGSvXL20e3CSX8m3I8b2gtHdCPVvgqo",
+		"role": "0"
+	}
+}
+Response: 200 397.581 ms 
+
+Request: POST /version1/authadmin/adminlogin at Wed Jan 31 2024 17:26:18 GMT+0530, IP: ::1, User Agent: PostmanRuntime/7.36.1
+Request Body:
+{
+	"username": "admin",
+	"password": "123456"
+}
+Response Body:
+{
+	"success": false,
+	"status": 200,
+	"msg": "Login Successfully",
+	"epoch": 1706702178,
+	"data": {
+		"id": 1,
+		"username": "admin",
+		"authToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFkbWluIiwiaWQiOjEsInJvbGUiOiJjcGFkbWluIiwiaWF0IjoxNzA2NzAyMTc3LCJleHAiOjE3MDY3ODg1Nzd9.qdKn0e6zKPMVELbo10YJY6UsA_zLV5ALCwa2xGUqV20",
+		"role": "1"
+	}
+}
+Response: 200 75.856 ms 
+
+Request: POST /version1/authadmin/adminlogin at Wed Jan 31 2024 17:27:14 GMT+0530, IP: ::1, User Agent: PostmanRuntime/7.36.1
+Request Body:
+{
+	"username": "admin",
+	"password": "123456"
+}
+Response Body:
+{
+	"success": false,
+	"status": 200,
+	"msg": "Login Successfully",
+	"epoch": 1706702234,
+	"data": {
+		"id": 1,
+		"username": "admin",
+		"authToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFkbWluIiwiaWQiOjEsInJvbGUiOiJjcGFkbWluIiwiaWF0IjoxNzA2NzAyMjM0LCJleHAiOjE3MDY3ODg2MzR9._wie6sseto-MmVi8ClohNm9akND3dmrnMxczMABlfzo",
+		"role": "1"
+	}
+}
+Response: 200 263.479 ms 
+
+Request: GET /version1/authadmin/getloginactivities at Wed Jan 31 2024 17:30:39 GMT+0530, IP: ::1, User Agent: PostmanRuntime/7.36.1
+Response Body:
+Forbidden
+Response: 403 7.719 ms 
+
+Request: POST /version1/authadmin/adminlogin at Wed Jan 31 2024 17:31:13 GMT+0530, IP: ::1, User Agent: PostmanRuntime/7.36.1
+Request Body:
+{
+	"username": "admin",
+	"password": "123456"
+}
+Response Body:
+{
+	"success": false,
+	"status": 200,
+	"msg": "Login Successfully",
+	"epoch": 1706702473,
+	"data": {
+		"id": 1,
+		"username": "admin",
+		"authToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFkbWluIiwiaWQiOjEsInJvbGUiOiJjcGFkbWluIiwiaWF0IjoxNzA2NzAyNDczLCJleHAiOjE3MDY3ODg4NzN9.DBjryD0UbcFh-o_IYFdkPlDAGOX-NDUaRRZGJx1F9Cs",
+		"role": "1"
+	}
+}
+Response: 200 307.029 ms 
+
+Request: GET /version1/authadmin/getloginactivities at Wed Jan 31 2024 17:31:23 GMT+0530, IP: ::1, User Agent: PostmanRuntime/7.36.1
+Response Body:
+{
+	"success": false,
+	"status": 404,
+	"msg": "Oops, there was a hiccup.",
+	"epoch": 1706702483,
+	"data": null
+}
+Response: 200 3.419 ms 
+
+Request: GET /version1/authadmin/getloginactivities at Wed Jan 31 2024 17:31:44 GMT+0530, IP: ::1, User Agent: PostmanRuntime/7.36.1
+Response Body:
+{
+	"success": false,
+	"status": 404,
+	"msg": "Oops, there was a hiccup.",
+	"epoch": 1706702504,
+	"data": null
+}
+Response: 200 8.465 ms 
+
+Request: GET /version1/authadmin/getloginactivities at Wed Jan 31 2024 17:32:01 GMT+0530, IP: ::1, User Agent: PostmanRuntime/7.36.1
+Response Body:
+{
+	"success": true,
+	"status": 200,
+	"msg": "Success",
+	"epoch": 1706702521,
+	"data": [
+		{
+			"id": 1,
+			"activity_type": "Login",
+			"user_id": 1,
+			"ip": "::1",
+			"created_at": "2024-01-31T05:30:32.000Z"
+		},
+		{
+			"id": 2,
+			"activity_type": "Login",
+			"user_id": 1,
+			"ip": "::1",
+			"created_at": "2024-01-31T05:32:02.000Z"
+		},
+		{
+			"id": 3,
+			"activity_type": "Login",
+			"user_id": 1,
+			"ip": "::1",
+			"created_at": "2024-01-31T05:36:11.000Z"
+		},
+		{
+			"id": 4,
+			"activity_type": "Login",
+			"user_id": 1,
+			"ip": "::1",
+			"created_at": "2024-01-31T05:36:48.000Z"
+		},
+		{
+			"id": 5,
+			"activity_type": "Login",
+			"user_id": 1,
+			"ip": "::1",
+			"created_at": "2024-01-31T06:26:04.000Z"
+		},
+		{
+			"id": 6,
+			"activity_type": "Login",
+			"user_id": 1,
+			"ip": "::1",
+			"created_at": "2024-01-31T06:26:18.000Z"
+		},
+		{
+			"id": 7,
+			"activity_type": "Admin Login",
+			"user_id": 1,
+			"ip": "::1",
+			"created_at": "2024-01-31T06:27:14.000Z"
+		},
+		{
+			"id": 8,
+	
+...
+Response: 200 181.425 ms 
+
+Request: GET /version1/authadmin/getloginactivities at Wed Jan 31 2024 17:32:15 GMT+0530, IP: ::1, User Agent: PostmanRuntime/7.36.1
+Response Body:
+{
+	"success": true,
+	"status": 200,
+	"msg": "Success",
+	"epoch": 1706702535,
+	"data": [
+		{
+			"id": 8,
+			"activity_type": "Admin Login",
+			"user_id": 1,
+			"ip": "::1",
+			"created_at": "2024-01-31T06:31:13.000Z"
+		},
+		{
+			"id": 7,
+			"activity_type": "Admin Login",
+			"user_id": 1,
+			"ip": "::1",
+			"created_at": "2024-01-31T06:27:14.000Z"
+		},
+		{
+			"id": 6,
+			"activity_type": "Login",
+			"user_id": 1,
+			"ip": "::1",
+			"created_at": "2024-01-31T06:26:18.000Z"
+		},
+		{
+			"id": 5,
+			"activity_type": "Login",
+			"user_id": 1,
+			"ip": "::1",
+			"created_at": "2024-01-31T06:26:04.000Z"
+		},
+		{
+			"id": 4,
+			"activity_type": "Login",
+			"user_id": 1,
+			"ip": "::1",
+			"created_at": "2024-01-31T05:36:48.000Z"
+		},
+		{
+			"id": 3,
+			"activity_type": "Login",
+			"user_id": 1,
+			"ip": "::1",
+			"created_at": "2024-01-31T05:36:11.000Z"
+		},
+		{
+			"id": 2,
+			"activity_type": "Login",
+			"user_id": 1,
+			"ip": "::1",
+			"created_at": "2024-01-31T05:32:02.000Z"
+		},
+		{
+			"id"
+...
+Response: 200 169.548 ms 
+
+Request: GET /version1/authadmin/getallusers at Wed Jan 31 2024 18:21:36 GMT+0530, IP: ::1, User Agent: PostmanRuntime/7.36.1
+Response Body:
+{
+	"success": true,
+	"status": 200,
+	"msg": "Success",
+	"epoch": 1706705496,
+	"data": [
+		{
+			"id": 1,
+			"first_name": "dassy",
+			"last_name": "doe",
+			"bio": null,
+			"email": "dassy.doe@example.in",
+			"password": "8d969eef6ecad3c29a3a629280e686cf0c3f5d5a86aff3ca12020c923adc6c92",
+			"profile_pic": "defaultProfile.png",
+			"jwt_id": "d3d4fd80-c028-11ee-b80e-9b9c05cbcacc",
+			"created_at": "2024-01-31T04:55:51.000Z"
+		}
+	]
+}
+Response: 200 425.875 ms 
+
+Request: GET /version1/authadmin/getallusers at Wed Jan 31 2024 18:22:05 GMT+0530, IP: ::1, User Agent: PostmanRuntime/7.36.1
+Response Body:
+{
+	"success": true,
+	"status": 200,
+	"msg": "Success",
+	"epoch": 1706705525,
+	"data": [
+		{
+			"id": 1,
+			"first_name": "dassy",
+			"last_name": "doe",
+			"bio": null,
+			"email": "dassy.doe@example.in",
+			"password": "8d969eef6ecad3c29a3a629280e686cf0c3f5d5a86aff3ca12020c923adc6c92",
+			"profile_pic": "defaultProfile.png",
+			"jwt_id": "d3d4fd80-c028-11ee-b80e-9b9c05cbcacc",
+			"created_at": "2024-01-31T04:55:51.000Z"
+		}
+	]
+}
+Response: 200 38.299 ms 
+
+Request: POST /version1/user/userregistration at Wed Jan 31 2024 18:37:17 GMT+0530, IP: ::1, User Agent: PostmanRuntime/7.36.1
+Request Body:
+{
+	"first_name": "dassy",
+	"last_name": "doe",
+	"email": "dassy.doe@example.in",
+	"confirm_password": "123456",
+	"password": "123456"
+}
+Response Body:
+{
+	"success": false,
+	"status": 208,
+	"msg": "Email already registered.",
+	"epoch": 1706706437,
+	"data": null
+}
+Response: 200 43.375 ms 
+
+Request: POST /version1/user/userregistration at Wed Jan 31 2024 18:37:35 GMT+0530, IP: ::1, User Agent: PostmanRuntime/7.36.1
+Request Body:
+{
+	"first_name": "john",
+	"last_name": "doe",
+	"email": "john.doe@example.in",
+	"confirm_password": "123456",
+	"password": "8d969eef6ecad3c29a3a629280e686cf0c3f5d5a86aff3ca12020c923adc6c92"
+}
+Response Body:
+{
+	"success": true,
+	"status": 200,
+	"msg": "Registration successfull",
+	"epoch": 1706706455,
+	"data": null
+}
+Response: 200 80.963 ms 
+
+Request: GET /version1/authadmin/getallusers at Wed Jan 31 2024 18:37:40 GMT+0530, IP: ::1, User Agent: PostmanRuntime/7.36.1
+Response Body:
+{
+	"success": true,
+	"status": 200,
+	"msg": "Success",
+	"epoch": 1706706460,
+	"data": [
+		{
+			"id": 2,
+			"first_name": "john",
+			"last_name": "doe",
+			"bio": null,
+			"email": "john.doe@example.in",
+			"password": "8d969eef6ecad3c29a3a629280e686cf0c3f5d5a86aff3ca12020c923adc6c92",
+			"profile_pic": "defaultProfile.png",
+			"jwt_id": null,
+			"created_at": "2024-01-31T07:37:35.000Z"
+		},
+		{
+			"id": 1,
+			"first_name": "dassy",
+			"last_name": "doe",
+			"bio": null,
+			"email": "dassy.doe@example.in",
+			"password": "8d969eef6ecad3c29a3a629280e686cf0c3f5d5a86aff3ca12020c923adc6c92",
+			"profile_pic": "defaultProfile.png",
+			"jwt_id": "d3d4fd80-c028-11ee-b80e-9b9c05cbcacc",
+			"created_at": "2024-01-31T04:55:51.000Z"
+		}
+	]
+}
+Response: 200 37.410 ms 
+
+Request: GET /version1/user/getuserprofile at Wed Jan 31 2024 18:38:24 GMT+0530, IP: ::1, User Agent: PostmanRuntime/7.36.1
+Response Body:
+{
+	"success": true,
+	"status": 200,
+	"msg": "Success",
+	"epoch": 1706706504,
+	"data": {
+		"id": 1,
+		"first_name": "dassy",
+		"last_name": "doe",
+		"bio": null,
+		"email": "dassy.doe@example.in",
+		"password": "8d969eef6ecad3c29a3a629280e686cf0c3f5d5a86aff3ca12020c923adc6c92",
+		"profile_pic": "https://www.espsofttechnologies.com/media/defaultProfile.png",
+		"jwt_id": "d3d4fd80-c028-11ee-b80e-9b9c05cbcacc",
+		"created_at": "2024-01-31T04:55:51.000Z"
+	}
+}
+Response: 200 336.806 ms 
+
+Request: POST /version1/user/weblogin at Wed Jan 31 2024 18:43:39 GMT+0530, IP: ::1, User Agent: PostmanRuntime/7.36.1
+Request Body:
+{
+	"address": "0xd828350c700e65a969d4040fcdc9c5239a84931b",
+	"signature": "0xacdc37f6a619a53ee9e592654cfaf4780c75dc646419470cf129132115d95ef06048e87599b94df7aefe29c81febfbf7ce1097acd5fa1abb990929b82ea9d58c1c"
+}
+Response Body:
+{
+	"success": false,
+	"status": 200,
+	"msg": "Please register before login.",
+	"epoch": 1706706819,
+	"data": null
+}
+Response: 200 301.790 ms 
